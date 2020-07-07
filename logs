@@ -1,0 +1,274 @@
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (/home/ubuntu/Push2Run BR Backend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/Push2Run BR Backend/app.js:27:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v14.5.0/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Listening on port 3000
+Listening on port 3000
