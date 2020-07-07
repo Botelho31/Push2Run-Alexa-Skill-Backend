@@ -9,20 +9,15 @@ router.post('/command',(req,res) => {
         "Content-Type" : "text/plain"
       }
       var datetime = new Date();
-      console.log(datetime);
       var newcommand = req.body.computer + "\n" + req.body.command + "\n" + datetime + "\n"
 
       axios.post("https://content.dropboxapi.com/2/files/download", null, {
           headers: headers
         })
         .then((response) => {
-	   var mode = "overwrite"
-	   if(response.data.error_summary == "path/not_found/.."){
-		mode = "ädd"
-	   }
             const headersforupload = {
               'Authorization': 'Bearer ' + req.body.token,
-              'Dropbox-API-Arg' : "{\"path\": \"/Command.txt\",\"mode\": \"" + mode + "\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}",
+              'Dropbox-API-Arg' : "{\"path\": \"Command.txt\",\"mode\": \"overwrite\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}",
               "Content-Type" : "application/octet-stream"
             }
             axios.post("https://content.dropboxapi.com/2/files/upload", response.data + newcommand, {
@@ -38,7 +33,28 @@ router.post('/command',(req,res) => {
         })
         .catch((error) => {
             console.log(error.response.data)
-          res.sendStatus(500)
+            console.log(error.response.data.error_summary)
+            var errorpath = error.response.data.error_summary.split(".")
+            console.log(errorpath[0])
+            if(errorpath[0] == "path/not_found/"){
+              const headersforupload = {
+                'Authorization': 'Bearer ' + req.body.token,
+                'Dropbox-API-Arg' : "{\"path\": \"/Command.txt\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}",
+                "Content-Type" : "application/octet-stream"
+              }
+              axios.post("https://content.dropboxapi.com/2/files/upload", newcommand, {
+                headers: headersforupload
+              })
+              .then((response) => {
+                res.json(response.data)
+              })
+              .catch((error) => {
+                console.log(error.response.data)
+                res.sendStatus(500)
+              })
+            }else{
+              res.sendStatus(500)
+            }
         })
 });
 
